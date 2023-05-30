@@ -12,17 +12,4 @@ module.exports = {
   rules: {
     'react-refresh/only-export-components': 'warn',
   },
-  "env": {
-    "browser": true,
-    "commonjs": true,
-    "es2021": true
-},
-"extends": "eslint:recommended",
-"overrides": [
-],
-"parserOptions": {
-    "ecmaVersion": "latest"
-},
-"rules": {
-}
 }
