@@ -4,7 +4,7 @@ const Navbar = ({ brand }) => {
     return (
     <nav className="navbar navbar-dark bg-dark fixed-top">
         <div className="container">
-        <a className="navbar-brand text-uppercase" href="/">{brand}</a>
+        <a className="navbar-brand text-uppercase" href={import.meta.env.BASE_URL}>{brand}</a>
         </div>
     </nav>
     )
